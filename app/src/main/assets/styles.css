@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.comic-list {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.comic-list article {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.comic-list img {
+    width: 100%;
+    height: auto;
+}
+
+.comic-details {
+    flex-grow: 1;
+}
+
+.comic-details img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
